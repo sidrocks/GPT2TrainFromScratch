@@ -263,11 +263,11 @@ Thus, the implementation **meets the architectural, training, and stability obje
 # 📄 Recommended Repository Structure
 
 ```
-├── model.py              # GPT model implementation
-├── train.py              # Training script
-├── input.txt             # Shakespeare dataset
-├── best_model.pt         # Best checkpoint
+├── app.py                # Gradio app
+├── gpt2_train_per.py     # Training script
+├── gpt2_train_per.ipynb  # Training noytebook
 ├── README.md             # (this file)
+├── input.txt             # Shakespeare dataset
 ```
 
 # 📊 Demo
@@ -299,6 +299,7 @@ If you'd like, I can also add:
 ✔ Instructions for training the full 124M version
 ✔ HuggingFace model export tools
 ✔ GitHub badges + project description
+
 
 
 

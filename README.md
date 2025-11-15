@@ -290,15 +290,8 @@ This repository provides a **from-scratch GPT-2 implementation** featuring:
 * Efficient dataloader + dataset diagnostics
 * Automatic checkpointing & early stopping
 
-The model trains successfully and can be expanded to the **full GPT-2 124M** model and beyond.
 
-If you'd like, I can also add:
 
-✔ Loss-curve plots
-✔ Model parameter count report
-✔ Instructions for training the full 124M version
-✔ HuggingFace model export tools
-✔ GitHub badges + project description
 
 
 

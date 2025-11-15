@@ -1,4 +1,3 @@
-````markdown
 # 📘 Training a GPT-2 (124M) Decoder-Only Model From Scratch on Shakespeare  
 This project demonstrates how to **train a GPT-2–style Transformer (decoder-only)** from scratch using the **complete works of William Shakespeare**.  
 The training pipeline includes:
@@ -23,10 +22,10 @@ The provided logs show the model reached extremely low training loss, and the co
 |----------|-------|
 | Model type | Decoder-only Transformer |
 | Parameters | ~124M |
-| Layers | 12 |
-| Attention heads | 12 |
-| Embedding size | 768 |
-| Feedforward hidden size | 3072 |
+| Layers | 6 |
+| Attention heads | 6 |
+| Embedding size | 384 |
+| Feedforward hidden size | 1536 |
 | Vocabulary size | 50,257 (GPT-2 BPE) |
 | Context window | 1024 tokens |
 
@@ -274,6 +273,7 @@ Thus, the implementation **meets the architectural, training, and stability obje
 # 📊 Demo
 
 You can try the trained model interactively on Hugging Face Spaces: https://huggingface.co/spaces/sidharthg/ShakespeareGPT
+<img width="1635" height="744" alt="image" src="https://github.com/user-attachments/assets/5e71ac5c-0153-430e-a496-1bc3046b7f58" />
 
 
 ---
@@ -299,5 +299,6 @@ If you'd like, I can also add:
 ✔ Instructions for training the full 124M version
 ✔ HuggingFace model export tools
 ✔ GitHub badges + project description
+
 
 
